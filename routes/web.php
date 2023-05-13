@@ -15,8 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('main.home');
-
-
+});
 
 Route::get('/contactus', function () {
     return view('/main/contactus');
