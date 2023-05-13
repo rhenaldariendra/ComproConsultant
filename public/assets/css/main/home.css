@@ -13,24 +13,8 @@
 }
 
 .content-1 .container-item {
-    content: '';
-    position: absolute;
-    bottom: 0;
     height: 25vh;
     width: 100%;
-}
-
-.content-1 .container-item .top{
-    height: 15vh;
-    /* transform: skewY(-10deg); */
-    width: 100%;
-    background: url('/assets/image/rec1.svg');
-    /* background-position: center; */
-    background-position-y: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-s */
-    /* background-size: 100%; */
 }
 
 .content-1 .container-item .bottom{
