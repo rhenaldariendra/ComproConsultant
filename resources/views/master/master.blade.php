@@ -34,10 +34,10 @@
             </div>
         </div>
         <div class="right">
-            <a href="#">HOME</a>
+            <a href="/">HOME</a>
             <a href="#">SERVICES</a>
             <a href="#">ABOUT US</a>
-            <a href="#">CONTACT US</a>
+            <a onclick="scrollToDiv()">CONTACT US</a>
             <a href="#">PLANS & PRICING</a>
         </div>
     </div>
@@ -57,4 +57,10 @@
         </div>
     </div>
 </body>
+<script>
+  function scrollToDiv() {
+    var div = document.getElementById("contact");
+    div.scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
 </html>
