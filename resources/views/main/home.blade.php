@@ -71,7 +71,7 @@
     </div>
 </div>
 
-<div class="allbody">
+<div id="contact" class="allbody">
     <div class="container-top">
         <div class="title-top">
             <h2>30 minutes consultation</h2>
