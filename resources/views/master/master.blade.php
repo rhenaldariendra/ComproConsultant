@@ -25,6 +25,8 @@
     <title>@yield('title')</title>
 </head>
 <body>
+    <a class="linkTo" target="_blank" href="https://wa.me/6282112211387?text=kontol"><img src="/assets/image/whatsapp.svg" alt="">  Contact Us</a>
+
     <div class="header">
         <div class="left">
             <div class="logo">
@@ -61,6 +63,11 @@
   function scrollToDiv() {
     var div = document.getElementById("contact");
     div.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  function submitForm(){
+    var text =
+    "Nama: {nama}\nEmail: {email}\nNama Perusahaan: {perusahaan}\nDeskripsi:\n{deskripsi}\n";
   }
 </script>
 </html>

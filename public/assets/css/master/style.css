@@ -18,6 +18,29 @@ body {
     background: #F0F1F7;
 }
 
+.linkTo {
+    position: fixed;
+    padding: 8px 17px;
+    background-color: #30475E;
+    bottom: 30px;
+    right: 20px;
+    border-radius: 15px;
+    z-index: 1;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    color: white;
+    transition: all 0.2s ease;
+}
+.linkTo img {
+    width: 30px;
+    margin-right: 7px;
+}
+
+.linkTo:hover {
+    background-color: #222831;
+}
+
 .header {
     position: fixed;
     box-sizing: border-box;
