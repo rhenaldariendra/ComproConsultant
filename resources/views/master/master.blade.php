@@ -40,7 +40,7 @@
             <a href="#">SERVICES</a>
             <a href="/aboutus">ABOUT US</a>
             <a onclick="scrollToDiv()">CONTACT US</a>
-            <a href="#">PLANS & PRICING</a>
+            <a href="/pricing">PLANS & PRICING</a>
         </div>
     </div>
     <div class="heads"></div>

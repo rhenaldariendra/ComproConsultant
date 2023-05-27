@@ -14,7 +14,7 @@
 
 <div class="ab2">
     <h1>Company Profile</h1>
-    <p class="desc_ab2">Lorem ipsum dolor sit amamet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
+    <p class="desc_ab2">Kantor Jasa Akuntan (KJA) BASAULI SIANIPAR adalah Badan Usaha yang telah mendapat izin dari Menteri Keuangan untuk memberikan Jasa Akuntansi bagi publik yang Berlokasi di Rukan Food Plaza, Grand Cibubur Country, Cikeas Bogor Indonesia. Terdiri dari para Akuntan Profesional yang telah terdaftar di Register Negara. Akuntan yang diselengaarakan oleh Kementerian Keuangan. BASAULI SIANIPAR juga terdaftar menjadi Akuntan Profesional ASEAN.</p>
 </div>
 
 <div class="lineab"></div>
@@ -22,11 +22,17 @@
 <div class="ab3">
     <div class="vision">
         <h2>Vision</h2>
-        <img src="" alt="">
+        <p>Menjadi organisasi profesi terdepan dalam pengembangan pengetahuan dan praktek akuntansi, manajemen bisnis dan publik yang berorientasi pada etika dan tanggung jawab sosial, serta lingkungan hidup dalam perspektif Nasional dan Internasional</p>
     </div>
     <div class="vision">
         <h2>Mission</h2>
-        <img src="" alt="">
+        <ol>
+            <li>Memelihara integritas, komitmen dan kompetensi seluruh anggota KJA BASAULI SIANIPAR, dalam pengembangan manajemen bisnis dan public yang berorientasi pada etika, tanggung jawab dan lingkungan hidup</li>
+            <li>Mengembangkan pengetahuan dan praktek bisnis, keuangan dan akuntansi bagi masyarakat</li>
+            <li> Berpartisipasi aktif dalam mewujudkan good governance melalui upaya organisasi yang sah dan dalam persepektif Nasional dan Internasional.
+
+            </li>
+          </ol> 
     </div>
 </div>
 
@@ -66,6 +72,7 @@
     <div class="findus">
         <h1>Where to find us</h1>
     </div>
+
 </div>
 
 @endsection
