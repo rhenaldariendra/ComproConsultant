@@ -80,7 +80,7 @@
     </div>
     <div class="container-bottom">
         <div class="left-box">
-            <form action="">
+            <form id="myForm">
                 <div class="top-container">
                     <div class="input-placeholder">
                         <label for="fname">Name</label>
@@ -143,4 +143,23 @@
         </div>
     </div>
 </div>
+
+<script>
+    document.getElementById("myForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        fname = document.getElementById("fname");
+        email = document.getElementById("email");
+        service = document.getElementById("service");
+        number = document.getElementById("number");
+        cname = document.getElementById("cname");
+        msg = document.getElementById("msg");
+
+        var text = "Nama:%20" + fname.value + "%0AEmail:%20" + email.value + "%0ANama%20Perusahaan:%20"+ cname.value + "%0AKebutuhan:%20" + service.value +"%0ADeskripsi:%0A" + msg.value;
+
+        var link = "https://wa.me/6282112211387?text=" + text
+        window.open(link, "_blank");
+    });
+
+</script>
 @endsection
