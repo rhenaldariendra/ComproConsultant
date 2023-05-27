@@ -20,3 +20,12 @@ Route::get('/', function () {
 Route::get('/contactus', function () {
     return view('/main/contactus');
 });
+
+Route::get('/aboutus', function () {
+    return view('/main/aboutus');
+});
+
+
+Route::get('/pricing', function () {
+    return view('/main/pricing');
+});
