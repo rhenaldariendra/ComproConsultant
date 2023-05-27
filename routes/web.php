@@ -24,3 +24,8 @@ Route::get('/contactus', function () {
 Route::get('/aboutus', function () {
     return view('/main/aboutus');
 });
+
+
+Route::get('/pricing', function () {
+    return view('/main/pricing');
+});
