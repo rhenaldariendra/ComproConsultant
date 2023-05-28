@@ -3,10 +3,13 @@
 @section('content')
 <link rel="stylesheet" href="/assets/css/main/aboutus.css">
 
-<div class="ab1">
-    <h1>Maximize your financial potential with our expert guidance</h1>
-    <p class="desc_ab1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+<div class="ab1-top">
+    <div class="ab1">
+        <h1>Maximize your financial potential with our expert guidance</h1>
+        <p class="desc_ab1">Helping company from small to medium business to get the financial information that they need to improve performance and profitability be prestigues decision.</p>
+    </div>
 </div>
+
 
 <img class="img_ab1" src="/assets/image/ab1.svg" alt="">
 

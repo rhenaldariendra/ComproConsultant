@@ -1,7 +1,11 @@
 .ab1{
     display: flex;
-    padding: 0 10%;
+    padding: 0 8%;
     justify-content: space-between;
+    
+}
+.ab1-top{
+    padding: 16px 0;
 }
 
 .desc_ab1{
