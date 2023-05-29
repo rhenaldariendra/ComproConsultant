@@ -16,21 +16,22 @@
     </div>
     <div class="content-2-body">
         <div class="content">
-            <div class="images"></div>
+            
+            <div class="images"><img src="assets/image/deal.png" alt=""></div>
             <div class="text">
-                <p>Enterprise Digitalization</p>
+                <p>Book Keeping</p>
             </div>
         </div>
         <div class="content">
-            <div class="images"></div>
+            <div class="images"><img src="assets/image/tax.png" alt=""></div>
             <div class="text">
-                <p>Comprehensive Solution</p>
+                <p>Taxes</p>
             </div>
         </div>
         <div class="content">
-            <div class="images"></div>
+            <div class="images"><img src="assets/image/evaluation.png" alt=""></div>
             <div class="text">
-                <p>Excellent Support</p>
+                <p>Management Control</p>
             </div>
         </div>
     </div>
