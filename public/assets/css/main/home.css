@@ -224,6 +224,7 @@ input, textarea, button {
 
 .allbody .container-top .title-top h2 {
     font-family: 'Poppins', sans-serif;
+    text-align: center;
     font-size: 30px;
 }
 
@@ -424,4 +425,78 @@ form button:hover{
         border-bottom-right-radius: 10px;
     }
 
+}
+
+@media only screen and (max-width: 736px) {
+    .content-2 .content-2-body {
+        flex-direction: column;
+    }
+    .content-3 {
+        flex-direction: column;
+    }
+    .content-3 .left {
+        margin-right: 0;
+        /* width: 100%; */
+        height: 150px;
+    }
+    .content-3 .left img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .content-3 .right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        box-sizing: border-box;
+        padding: 10px;
+        width: 100%;
+    }
+    .content-3 .right p{
+        margin-bottom: 20px;
+    }
+    .content-3 .right a {
+        border-radius: 10px;
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    .content-3 .right a i {
+        font-size: 15px;
+    }
+
+
+    .content-4 {
+        padding-top: 30px;
+    }
+    .content-4 .content-4-body {
+        flex-direction: column;
+    }
+    .content-4 .content-4-body .item {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .content-4 .content-4-body .item p:first-of-type{
+        margin-top: 15px;
+        /* margin-bottom: 10px; */
+    }
+    .container-bottom .left-box .top-container {
+        flex-direction: column;
+        justify-content: start;
+    }
+    .left-box .top-container .input-placeholder {
+        width: 100%;
+    }
+    .content-4 .content-4-body .item img {
+        width: 130px;
+    }
+    .mapouter, .gmap_canvas, .gmap_iframe{
+        height: 300px!important;
+    }
+
+    /* temp */
+    .header {
+        display: none;
+    }
+    .footer {
+        display: none;
+    }
 }
