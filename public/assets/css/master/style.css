@@ -80,6 +80,7 @@ body {
 }
 
 .footer {
+    position: relative;
     background: #222831;
     box-sizing: border-box;
     padding: 0 50px;

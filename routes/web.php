@@ -20,6 +20,9 @@ Route::get('/', function () {
 Route::get('/contactus', function () {
     return view('/main/contactus');
 });
+Route::get('/tes', function () {
+    return view('/main/tes');
+});
 
 Route::get('/aboutus', function () {
     return view('/main/aboutus');

@@ -37,10 +37,10 @@
         </div>
         <div class="right">
             <a href="/">HOME</a>
-            <a href="#">SERVICES</a>
+            <a href="/pricing">SERVICES</a>
             <a href="/aboutus">ABOUT US</a>
-            <a onclick="scrollToDiv()">CONTACT US</a>
-            <a href="/pricing">PLANS & PRICING</a>
+            <a onclick="goToHome()">CONTACT US</a>
+            {{-- <a href="/pricing">PLANS & PRICING</a> --}}
         </div>
     </div>
     <div class="heads"></div>
@@ -60,6 +60,18 @@
     </div>
 </body>
 <script>
+
+    function goToHome(){
+        if(window.location.pathname == "/"){
+            scrollToDiv();
+        }
+        else {
+            window.location.href = "/#contact";
+            scrollToDiv();
+        }
+        // console.log(window.location.pathname);
+    }
+
   function scrollToDiv() {
     var div = document.getElementById("contact");
     div.scrollIntoView({ behavior: 'smooth' });
