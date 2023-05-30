@@ -115,8 +115,8 @@ class Slideshow {
           this.DOM.oldSlideTitle = this.DOM.oldSlide.querySelector('.slide-title'),
           this.DOM.oldSlideTitleLetters = this.DOM.oldSlideTitle.querySelectorAll('span');
           // Animate
-          this.DOM.oldSlideTitleLetters.forEach((letter,pos) => {
-            TweenMax.to(letter, .3, {
+          this.DOM.oldSlideTitleLetters.forEach((word,pos) => {
+            TweenMax.to(word, .3, {
               ease: Quart.easeIn,
               delay: (this.DOM.oldSlideTitleLetters.length-pos-1)*.04,
               y: '50%',
@@ -126,8 +126,8 @@ class Slideshow {
         }
 
         // Animate title
-        this.DOM.activeSlideTitleLetters.forEach((letter, pos) => {
-					TweenMax.to(letter, .3, {
+        this.DOM.activeSlideTitleLetters.forEach((word, pos) => {
+					TweenMax.to(word, .3, {
 						ease: Back.easeOut,
 						delay: pos*.03,
 						startAt: {y: '50%', opacity: 0},
@@ -153,7 +153,7 @@ class Slideshow {
       this.DOM.activePaginationItem = paginationEl.querySelector('.slideshow-pagination-item.active');
       this.DOM.activePaginationItemLoader = this.DOM.activePaginationItem.querySelector('.pagination-separator-loader');
 
-      console.log(swiper.pagination);
+    //   console.log(swiper.pagination);
       // console.log(swiper.activeIndex);
 
       // Reset and animate
