@@ -1,15 +1,36 @@
+p, h1, h2, label, span, strong {
+    font-family: 'Poppins';
+}
+
 .ab1{
     display: flex;
+    align-items: flex-end;
     padding: 0 8%;
     justify-content: space-between;
-    
+
 }
+
 .ab1-top{
     padding: 16px 0;
+}
+.ab1-top .ab1 h1{
+    /* display: flex; */
+    font-weight: 700;
+    font-size: 48px;
+    width: 60%;
+}
+.ab1-top .ab1 h1 strong{
+    font-weight: 700;
+    font-size: 48px;
+    color: #6A6A6A;
 }
 
 .desc_ab1{
     margin-top: 3%;
+    width: 40%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .img_ab1{
@@ -18,7 +39,7 @@
 
 .lineab{
     margin: 5% 5%;
-    height: 5px;
+    height: 2px;
     background-color: black;
 }
 
@@ -28,8 +49,15 @@
     /* width: 100%; */
     justify-content: space-between;
 }
+
+.ab2 h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+}
+
 .ab2 p{
-    width: 50%;
+    width: 60%;
     text-align: justify ;
 }
 
@@ -37,6 +65,11 @@
     display: flex;
     padding: 0 5%;
     justify-content: space-around;
+}
+
+.ab3 h2{
+    font-weight: 700;
+    font-size: 55px;
 }
 
 .vision{
@@ -59,8 +92,22 @@
     justify-content: space-between;
 }
 
+.ab4 .findus {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.ab4 .findus h1 {
+    width: 60%;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: right;
+}
+
+
 .maps{
-    width: 55%;
+    width: 50%;
     /* height: 20px; */
     /* background-color: black; */
 }
