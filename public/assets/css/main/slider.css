@@ -35,7 +35,7 @@ section {
     line-height: 1;
     margin: 0 2%;
     padding: 5px 5px;
-    max-width: 50%;
+    /* max-width: 50%; */
     white-space: normal;
     /* word-break: break-word; */
     color: #000;
@@ -49,7 +49,7 @@ section {
 @media (min-width: 45em) {
     .slide-title {
         /* font-size: 7vw; */
-        max-width: none;
+        /* max-width: none; */
     }
 }
 
@@ -182,18 +182,70 @@ section {
 }
 @media only screen and (max-width: 895px) {
     .content-1 {
-        height: 70vh;
+        height: 50vh;
     }
     .plceholder {
-        height: 70vh;
+        height: 50vh;
     }
     section {
         width: 100%;
-        height: 70vh;
+        height: 50vh;
     }
     .slide-title {
         font-size: 23px;
         margin: 0;
     }
 
+}
+@media only screen and (max-width: 718px) {
+    .content-1 {
+        height: 30vh;
+    }
+    .plceholder {
+        height: 30vh;
+    }
+    section {
+        width: 100%;
+        height: 30vh;
+    }
+    .slide-title{
+        font-size: 15px;
+    }
+    .slideshow-pagination{
+        bottom: 3rem;
+    }
+    .pagination-number{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 471px) {
+
+    .slide-title{
+        font-size: 12px;
+        border-radius: 5px;
+    }
+    .slideshow-pagination{
+        bottom: 2rem;
+    }
+    .pagination-number{
+        font-size: .8rem;
+    }
+}
+
+
+@media only screen and (max-width: 379px) {
+    .slide-title{
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width: 342px) {
+    .slide-title{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 317px) {
+    .slide-title{
+        font-size: 9px;
+    }
 }

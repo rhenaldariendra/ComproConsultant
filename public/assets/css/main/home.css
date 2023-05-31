@@ -381,9 +381,12 @@ form button:hover{
         width: 350px;
     }
     .content-3 .left img {
-        width: 320px;
+        object-fit: cover;
+        /* height: 100%; */
+        width: 300px;
     }
     .content-3 .right h2 {
+        /* text-align: center; */
         font-size: 32px;
     }
     .content-3 .right p {
@@ -428,19 +431,44 @@ form button:hover{
 }
 
 @media only screen and (max-width: 736px) {
-    .content-2 .content-2-body {
-        flex-direction: column;
+    .linkTo img{
+        width: 20px;
+    }
+    .linkTo{
+        font-size: 10px;
+        padding: 3px 10px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .content-2 .title h2{
+        font-size: 20px;
     }
     .content-3 {
         flex-direction: column;
+    }
+    .content-3 .right h2{
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .content-3 .right p{
+        font-size: 15px;
     }
     .content-3 .left {
         margin-right: 0;
         /* width: 100%; */
         height: 150px;
     }
+
+    .content-3 .left {
+        width: 100%;
+    }
     .content-3 .left img {
         height: 100%;
+        width: 100%;
+        /* background-position: top; */
         object-fit: cover;
     }
     .content-3 .right {
@@ -465,7 +493,7 @@ form button:hover{
 
 
     .content-4 {
-        padding-top: 30px;
+        padding-top: 15px;
     }
     .content-4 .content-4-body {
         flex-direction: column;
@@ -498,5 +526,56 @@ form button:hover{
     }
     .footer {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 627px) {
+    .content-2 .title{
+        margin-top: 15px;
+    }
+
+    .content-2 .content-2-body {
+        flex-direction: column;
+    }
+    .content-2 .content-2-body .content{
+        justify-content: center;
+    }
+    .content-2 .content-2-body .content .images {
+        width: 35px;
+        height: 30px;
+    }
+    .content-2 .content-2-body .content .text p{
+        width: fit-content;
+        font-size: 12px;
+    }
+    .content-3{
+        padding-top: 15px;
+    }
+    .content-4 .title h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .content-4 .content-4-body .item p{
+        font-size: 12px;
+    }
+    .allbody{
+        margin-top: 17px;
+    }
+    .allbody .container-top .title-top h2{
+        font-size: 20px ;
+    }
+    .mapouter, .gmap_canvas, .gmap_iframe{
+        height: 200px!important;
+    }
+    form label, form input, form textarea{
+        font-size: 12px;
+    }
+    form button{
+        font-size: 13px;
+        margin-top: 10px;
+        padding: 5px 20px;
+    }
+    .input-placeholder{
+        margin-bottom: 5px;
     }
 }
