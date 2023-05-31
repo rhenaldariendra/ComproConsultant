@@ -402,9 +402,9 @@ form button:hover{
     .content-4 .content-4-body .item p{
         font-size: 15px;
     }
-    .content-4 .content-4-body .item img {
+    /* .content-4 .content-4-body .item img {
         width: 195px;
-    }
+    } */
     .allbody .container-bottom {
         flex-direction: column-reverse;
         align-items: center;
@@ -496,10 +496,10 @@ form button:hover{
         padding-top: 15px;
     }
     .content-4 .content-4-body {
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     .content-4 .content-4-body .item {
-        margin: 0;
+        /* margin: 0; */
         margin-bottom: 20px;
     }
     .content-4 .content-4-body .item p:first-of-type{
@@ -514,7 +514,7 @@ form button:hover{
         width: 100%;
     }
     .content-4 .content-4-body .item img {
-        width: 130px;
+        /* width: 130px; */
     }
     .mapouter, .gmap_canvas, .gmap_iframe{
         height: 300px!important;
@@ -528,7 +528,29 @@ form button:hover{
         display: none;
     }
 }
-
+@media only screen and (max-width: 528px) {
+    .content-4 .content-4-body .item img{
+        width: 180px;
+    }
+}
+@media only screen and (max-width: 408px) {
+    .content-4 .content-4-body .item img{
+        width: 150px;
+    }
+    .content-4 .content-4-body .item p{
+        width: 145px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 341px) {
+    .content-4 .content-4-body .item img{
+        width: 120px;
+    }
+    .content-4 .content-4-body .item p{
+        width: 115px;
+        text-align: center;
+    }
+}
 @media only screen and (max-width: 627px) {
     .content-2 .title{
         margin-top: 15px;
