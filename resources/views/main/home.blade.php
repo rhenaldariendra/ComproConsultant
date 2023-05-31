@@ -138,11 +138,6 @@
                 <p>Alvin Kurniawan, S.E., M.M., BKP</p>
                 <p>Partner</p>
             </div>
-            <div class="item">
-                <img src="/assets/image/temp.svg" alt="">
-                <p>Yuli Julia, S.E., M.M., BKP</p>
-                <p>Partner</p>
-            </div>
         </div>
     </div>
 
