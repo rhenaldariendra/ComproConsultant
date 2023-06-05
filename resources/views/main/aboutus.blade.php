@@ -72,6 +72,11 @@
     </div>
     <div class="findus">
         <h1>Where to find us</h1>
+        <div class="abs-address">
+            <p>RUKAN Food Plaza 1  No.26</p>
+            <p>Grand Cibubur Country</p>
+            <p>Cikeas Bogor, Indonesia</p>
+        </div>
     </div>
 
 </div>

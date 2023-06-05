@@ -112,5 +112,14 @@ p, h1, h2, label, span, strong {
     /* background-color: black; */
 }
 
+.abs-address{
+    margin: 10% 0 0 0;
+}
+
+.abs-address p{
+    font-size: 24px;
+    text-align: right;
+}
+
 
 

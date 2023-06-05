@@ -24,7 +24,7 @@
 .box1{
     box-sizing: border-box;
     width: 450px;
-    height: 996px;
+    height: 1080px;
     left: 184px;
     top: 341px;
 
@@ -36,7 +36,7 @@
 .box2{
     box-sizing: border-box;
     width: 450px;
-    height: 538px;
+    height: 562px;
     left: 184px;
     top: 341px;
 
@@ -57,7 +57,7 @@
 }
 
 .btn_get_2{
-    margin-top: 93px;
+    margin-top: 36px;
     width: 386px;
     height: 43px;
     background: #222831;
@@ -103,7 +103,6 @@
 
 .content_box p {
     text-align: justify;
-    padding-top: 2%;
 }
     
 
@@ -186,5 +185,57 @@
     font-style: normal;
 }
 
+.line-pricing{
+    margin: 5% 5%;
+    height: 4px;
+    background-color: black;
+}
+.container-pricebox{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
 
+.price-box{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    background: #f9faff;
+    border: 2px solid #051C2C;
+    border-radius: 26px;
+    box-sizing: border-box;
+    padding: 35px 20px ;
+}
+
+.price-top p{
+    font-size: 68px;
+    font-weight: bold;
+}
+
+.price-box p:first{
+    font-size: 38px;
+    font-weight: bold;
+    
+}
+
+.pricing-price{
+    margin: 3% 0;
+}
+
+.price-mid{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-size: 24px;
+   
+}
+.price-mid strong{
+    font-size: 68px;
+}
+
+.pricing-box{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
 
