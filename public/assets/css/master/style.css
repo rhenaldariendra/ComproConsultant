@@ -114,3 +114,12 @@ body {
 .footer .right p:first-of-type {
     padding-left: 0;
 }
+
+@media only screen and (max-width: 736px) {
+    .header {
+        display: none;
+    }
+    .footer {
+        display: none;
+    }
+}

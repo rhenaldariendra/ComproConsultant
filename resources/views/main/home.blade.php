@@ -129,12 +129,12 @@
         </div>
         <div class="content-4-body">
             <div class="item">
-                <img src="/assets/image/temp.svg" alt="">
-                <p>Yuli Julia, S.E., M.M., BKP</p>
+                <img src="/assets/image/fotokanancroped.jpg" alt="">
+                <p>Ilias Ronald M Aritonang</p>
                 <p>Partner</p>
             </div>
             <div class="item">
-                <img src="/assets/image/temp.svg" alt="">
+                <img src="/assets/image/fotokanancroped.jpg" alt="">
                 <p>Alvin Kurniawan, S.E., M.M., BKP</p>
                 <p>Partner</p>
             </div>

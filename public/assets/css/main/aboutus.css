@@ -121,5 +121,16 @@ p, h1, h2, label, span, strong {
     text-align: right;
 }
 
-
+@media only screen and (max-width: 528px) {
+    
+}
+@media only screen and (max-width: 408px) {
+    
+}
+@media only screen and (max-width: 341px) {
+    
+}
+@media only screen and (max-width: 627px) {
+    
+}
 
