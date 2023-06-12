@@ -121,16 +121,230 @@ p, h1, h2, label, span, strong {
     text-align: right;
 }
 
-@media only screen and (max-width: 528px) {
-    
-}
-@media only screen and (max-width: 408px) {
-    
-}
-@media only screen and (max-width: 341px) {
-    
-}
-@media only screen and (max-width: 627px) {
-    
+@media only screen and (max-width: 828px){
+    .ab1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .ab1-top .ab1 h1 {
+        font-weight: 700;
+        font-size: 48px;
+        width: 100%;
+   
+    }
+
+    .desc_ab1{
+        width: 100%;
+    }
+
+    .ab2 p{
+        font-size: 20px;
+    }
+
+    .ab4 {
+        display: flex;
+        padding: 0;
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .ab4 .findus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ab4 .findus h1 {
+        width: 100%;
+        font-size: 64px;
+    }
+
+    .findus{
+        padding-bottom: 20px;
+    }
+
+    .ab4 .findus h1 {
+        text-align: right;
+    }
+    .abs-address {
+        margin-top: 0;
+    }
+
+    .maps {
+        width: 80%;
+    }
 }
 
+@media only screen and (max-width: 599px){
+    .ab1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .ab1-top .ab1 h1{
+        text-align: center;
+    }
+    .ab1 p{
+        text-align: center;
+    }
+
+    .ab1-top .ab1 h1 {
+        font-weight: 700;
+        font-size: 48px;
+        width: 100%;
+    }
+
+    .desc_ab1{
+        width: 100%;
+    }
+
+    .ab2 {
+        display: flex;
+        padding: 0 5%;
+        /* width: 100%; */
+        flex-direction: column;
+        align-items: center;
+    }
+    .ab2 h1 {
+        font-size: 43px;
+    }
+    .ab2 p {
+        width: 90%;
+        text-align: justify;
+    }
+
+    .desc_ab2 p{
+        font-size: 20px;
+    }
+    .ab3{
+        flex-direction: column;
+    }
+
+    .ab3 h2{
+        font-size: 43px;
+    }
+
+    .ab3 p, .ab3 ol{
+        font-size: 20px;
+    }
+
+    .ab4 {
+        display: flex;
+        padding: 0;
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .ab4 .findus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ab4 .findus h1 {
+        width: 100%;
+        font-size: 43px;
+    }
+
+    .findus{
+        padding-bottom: 20px;
+    }
+
+    .abs-address {
+        margin-top: 0;
+    }
+    .abs-address p{
+        font-size: 20px; 
+    }
+
+    .maps {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 426px){
+    .ab1 h1 {
+        line-height: 100%;
+        font-size: 43px;
+    }
+    .ab2 h1 {
+        font-size: 43px;
+    }
+    .ab2 p {
+        width: 86%;
+        font-size: 20px;
+    }
+    .ab3 h2 {
+        font-size: 43px;
+    }
+
+    .ab4 .findus h1 {
+        font-size: 43px;
+    }
+
+    .abs-address p{
+        font-size: 20px; 
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .ab1-top .ab1 h1 {
+        font-size: 42px;
+        padding-bottom: 3%;
+    }
+    .ab2 h1 {
+        font-size: 36px;
+    }
+    .ab2 .desc_ab2{
+        font-size: 18px;
+    }
+    .ab3 p, .ab3 ol {
+        font-size: 18px;
+    }
+    .ab4 .findus h1 {
+        font-size: 41px;
+    }
+    .gmap_canvas {
+        height: 501px;
+    }
+    .abs-address p{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 324px){  
+    .ab1-top .ab1 h1 {
+        font-size: 34px;
+        padding-bottom: 3%;
+    }
+
+    .ab1 p{
+        font-size: 16px;
+    }
+    .ab2 h1 {
+        font-size: 33px;
+    }
+
+    .desc_ab2 p{
+        font-size: 16px;
+    }
+    .ab3 .vision p li{
+        font-size: 16px;
+    }
+
+    .ab4 .findus h1 {
+        font-size: 34px;
+    }
+
+    .abs-address p{
+        font-size: 18px; 
+    }
+    .gmap_canvas {
+        height: 514px;
+    }
+}
