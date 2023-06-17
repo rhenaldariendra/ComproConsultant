@@ -1,5 +1,5 @@
 * {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins';
     margin: 0;
     padding: 0;
 }
@@ -58,6 +58,11 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
+}
+
+.header .left .logo img{
+    width: 68px;
+    height: 55px;
 }
 
 .header .right a {
