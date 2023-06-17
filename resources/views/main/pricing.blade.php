@@ -15,6 +15,19 @@
                 <h1>Book Keeping</h1>
                 <p>We can assist in the licensing and registration process, be it for business permits, location permits, operational permits, or any other specific permits that may be required based on the type of business to be established.</p>
                  
+                
+                <div class="pricing-price">
+                    <div class="price-mid">
+                        <h1>Rp <strong>3</strong></h1>
+                        <p class="price-month">mill/month</p>
+                    </div>
+                
+                
+                    <div class="price-bot">
+                        <p>*additional 1.5 mill for multiples of 50 transactions</p>
+                    </div>
+                </div>                     
+                                    
                 <div class="btn_get">
                     <a href="#">get started</a>
                 </div>
@@ -58,6 +71,18 @@
                 <h1>Tax Services</h1>
                 <p>We offer in-depth knowledge of tax systems and complex tax regulations.</p>
                  
+                <div class="pricing-price">
+                    <div class="price-mid">
+                        <h1>Rp <strong>3</strong></h1>
+                        <p class="price-month">mill/month</p>
+                    </div>
+                
+                
+                    <div class="price-bot">
+                        <p>*additional 1.5 mill for multiples of 50 transactions</p>
+                    </div>
+                </div> 
+
                 <div class="btn_get_2">
                     <a href="#"> get started</a>
                 </div>
@@ -78,14 +103,5 @@
     </div>
 </div>
 
-
-<div class="pricing-bot">
-    <div class="btn-contactme">
-        <a href="#">Contact me for more package information</a>
-    </div>
-</div>
-
     
-
-
 @endsection
