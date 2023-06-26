@@ -169,3 +169,114 @@ li::before{
 .b2 h3{
    text-align: center;
 }
+
+@media only screen and (max-width: 426px) {
+    .pric1 p{
+        font-size: 16px;
+    }
+
+    .box1 h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .lr1{
+        flex-direction: column;
+    }
+
+    .b1{
+        width: fit-content;
+    }
+
+    .b1 h3{
+        font-size: 20px;
+    }
+
+    .b1 p{
+        font-size: 15px;
+    }
+
+    .poin1 li, .poin2 li{
+        font-size: 12px;
+    }
+
+    .btn_box1{
+        width: 224px;
+    }
+
+    .btn_box1 p{
+        font-size: 13px;
+    }
+
+    .box2 h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .b2 p{
+        font-size: 11px;
+        
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .pric1 h1{
+        font-size: 21px;
+    }
+
+    .pric1 p{
+        font-size: 13px;
+        line-height: 19px
+    }
+
+    .box1 h1{
+        font-size: 20px;
+    }
+
+    .b1 h3{
+        font-size: 18px;
+    }
+
+    .b1 p{
+        font-size: 12px;
+    }
+
+    .dss li{
+        font-size: 10px;
+    }
+
+    .btn_box1 p{
+        font-size: 10px;
+    }
+
+    .btn_box1{
+        width: 174px;
+        height: 50px;
+    }
+
+    .box2 h1{
+        font-size:19px ;
+    }
+
+    .b2 p{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 663px) {
+    .box1 h1{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 514px) {
+    .box1 h1{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 429px) {
+    .box1 h1{
+        font-size: 17px;
+    }
+}
