@@ -134,8 +134,8 @@
                 <p>Partner</p>
             </div>
             <div class="item">
-                <img src="/assets/image/fotokanancroped.jpg" alt="">
-                <p>Alvin Kurniawan, S.E., M.M., BKP</p>
+                <img src="/assets/image/fotobuuli.jpg" alt="">
+                <p>Bu Uli</p>
                 <p>Partner</p>
             </div>
         </div>
