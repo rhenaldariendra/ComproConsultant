@@ -10,11 +10,11 @@
 
 <div class="pricing_content">
     <div class="box1">
-        <h1>Business Processiong Outsourcing</h1>
+        <h1>Business Process Outsourcing</h1>
        <div class="lr1">
            <div class="b1">
                <h3>Book Keeping</h3>
-               <p>We can assist in the licensing and registration process, be it for business permits, location permits, operational permits, or any other specific permits that may be required based on the type of business to be established.</p>
+            
                <div class="dss">
                    <div class="poin1">
                         <li>Record daily transaction</li>
@@ -46,7 +46,7 @@
 
         <div class="btn_box1">
             <a href="btn_box2">
-                <p><big><strong>Start from 3 mill / month</strong></big><br><small>addtional charge will be added</small></p>
+                <p><big><strong>Start from 3.000.000 / month</strong></big><br><small>addtional charge will be added</small></p>
             </a>
         </div>
         
@@ -56,12 +56,12 @@
         <h1>Business Partner</h1>
        <div class="lr2">
            <div class="b2">
-               <p>Helping individuals, businesses, or organizations to develop successful partnerships with others. We provide extensive consulting services and in-depth knowledge of various aspects of partner business, including identification of potential partners, strategic evaluation, contract negotiation, and relationship management.</p>
+               <p>We design integrated bookkeeping systems aligned with your Financial Statements to increase efficiency, save costs, and provide small to medium-sized businesses with the Financial Information they need to enhance performance and profitability. Our trustworthy services include delivering numbers, management reports, and KPIs to support your business growth through informed decision-making.</p>
             </div>
         </div>
         <div class="btn_box1">
             <a href="btn_box2">
-                <p><big><strong>Start from 3 mill / month</strong></big><br><small>addtional charge will be added</small></p>
+                <p><big><strong>Start from 3.000.000 / month</strong></big><br><small>addtional charge will be added</small></p>
             </a>
         </div>
         

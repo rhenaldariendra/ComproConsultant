@@ -86,26 +86,26 @@
 <div class="others">
     <div class="content-2">
         <div class="title">
-            <h2>Our Services</h2>
+            <h2>Layanan Kami</h2>
         </div>
         <div class="content-2-body">
             <div class="content">
 
                 <div class="images"><img src="assets/image/deal.png" alt=""></div>
                 <div class="text">
-                    <p>Book Keeping</p>
+                    <p>Jasa Pembukuan</p>
                 </div>
             </div>
             <div class="content">
                 <div class="images"><img src="assets/image/tax.png" alt=""></div>
                 <div class="text">
-                    <p>Taxes</p>
+                    <p>Jasa Perpajakan</p>
                 </div>
             </div>
             <div class="content">
                 <div class="images"><img src="assets/image/evaluation.png" alt=""></div>
                 <div class="text">
-                    <p>Management Control</p>
+                    <p>Menejemen Kontrol</p>
                 </div>
             </div>
         </div>
@@ -116,16 +116,15 @@
             <img src="/assets/image/imageHome.svg" alt="">
         </div>
         <div class="right">
-            <h2>We Provide You The Best Services</h2>
-            <p>With our attention to detail and our up-to date knowledge on current laws and regulations, we thrive to
-                deliver accurate calculations and solutions, relevant to your needs.</p>
+            <h2>Kami Memberikan Anda Layanan Terbaik</h2>
+            <p>Dengan perhatian kami terhadap detail dan pengetahuan kami yang terkini tentang undang-undang dan peraturan saat ini, kami berkembang untuk memberikan perhitungan dan solusi yang akurat, relevan dengan kebutuhan Anda.</p>
             <a href="#">Explore More <i class="bi bi-arrow-right-circle"></i></a>
         </div>
     </div>
 
     <div class="content-4">
         <div class="title">
-            <h2>Our Partner</h2>
+            <h2>Expert Kami</h2>
         </div>
         <div class="content-4-body">
             <div class="item">
@@ -142,8 +141,8 @@
     <div id="contact" class="allbody">
         <div class="container-top">
             <div class="title-top">
-                <h2>30 minutes consultation</h2>
-                <p>Please fill in the form below</p>
+                <h2>Konsultasi 30 menit</h2>
+                <p>Silakan isi formulir di bawah ini</p>
             </div>
         </div>
         <div class="container-bottom">
@@ -160,7 +159,7 @@
                         </div>
                     </div>
                     <div class="input-placeholder">
-                        <label for="service">Services Needed</label>
+                        <label for="service">Layanan</label>
                         <input type="text" id="service" name="service" value="">
                     </div>
                     <div class="input-placeholder">
@@ -168,14 +167,14 @@
                         <input type="text" id="number" name="number" value="">
                     </div>
                     <div class="input-placeholder">
-                        <label for="cname">Company Name</label>
+                        <label for="cname">Nama Company</label>
                         <input type="text" id="cname" name="cname" value="">
                     </div>
                     <div class="input-placeholder">
                         <label for="msg">Message</label>
                         <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
                     </div>
-                    <button type="submit">Submit</button>
+                    <button type="submit">Kirim</button>
                 </form>
             </div>
 
