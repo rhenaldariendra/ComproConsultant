@@ -5,7 +5,7 @@
 
 <div class="pric1">
     <h1>Get your business perfectly</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor</p>
+    <p>Trustworthy consulting services for your business success. We provide optimal, innovative, and dynamic solutions in strategy, management, marketing, and IT transformation. Focused on excellence and global achievement</p>
 </div>
 
 <div class="pricing_content">
