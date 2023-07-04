@@ -17,7 +17,7 @@
 
 <div class="ab2">
     <h1>Company Profile</h1>
-    <p class="desc_ab2">Kantor Jasa Akuntan (KJA) BASAULI SIANIPAR is a reputable business entity that has been authorized by the Minister of Finance to offer exceptional accounting services to the public. Our office is conveniently situated in the esteemed Rukan Food Plaza, within the prestigious Grand Cibubur Country, Cikeas Bogor, Indonesia. Our team consists of highly skilled Professional Accountants who are duly registered with the National Register, endorsed by the Ministry of Finance. Moreover, BASAULI SIANIPAR is proudly recognized as a certified Professional Accountant in the esteemed ASEAN community.</p>
+    <p class="desc_ab2">Kantor Jasa Akuntan (KJA) BASAULI SIANIPAR is a business entity that has been authorized by the Minister of Finance to offer exceptional accounting services to the public. Our office is conveniently situated in the esteemed Rukan Food Plaza, within the prestigious Grand Cibubur Country, Cikeas Bogor, Indonesia. Our team consists of highly skilled Professional Accountants who are duly registered with the National Register, endorsed by the Ministry of Finance. Moreover, BASAULI SIANIPAR is proudly recognized as a certified Professional Accountant in the esteemed ASEAN community.</p>
 </div>
 
 <div class="lineab"></div>

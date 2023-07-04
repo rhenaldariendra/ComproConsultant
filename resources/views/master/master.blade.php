@@ -42,6 +42,16 @@
             <a onclick="goToHome()">CONTACT US</a>
             {{-- <a href="/pricing">PLANS & PRICING</a> --}}
         </div>
+        <div class="radio-inputs">
+            <label class="radio">
+              <input type="radio" name="radio" checked="">
+              <span class="name">IDN</span>
+            </label>
+            <label class="radio">
+              <input type="radio" name="radio">
+              <span class="name">ENG</span>
+            </label>
+          </div>
     </div>
     <div class="heads"></div>
 
