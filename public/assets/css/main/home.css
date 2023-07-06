@@ -27,6 +27,7 @@
 .content-1 .container-item {
     height: 25vh;
     width: 100%;
+    
 }
 
 .content-1 .container-item .bottom{
@@ -520,13 +521,7 @@ form button:hover{
         height: 300px!important;
     }
 
-    /* temp */
-    .header {
-        display: none;
-    }
-    .footer {
-        display: none;
-    }
+
 }
 @media only screen and (max-width: 528px) {
     .content-4 .content-4-body .item img{

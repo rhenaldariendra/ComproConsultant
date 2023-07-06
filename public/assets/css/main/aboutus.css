@@ -1,8 +1,13 @@
-p, h1, h2, label, span, strong {
+p,
+h1,
+h2,
+label,
+span,
+strong {
     font-family: 'Poppins';
 }
 
-.ab1{
+.ab1 {
     display: flex;
     align-items: flex-end;
     padding: 0 8%;
@@ -10,22 +15,24 @@ p, h1, h2, label, span, strong {
 
 }
 
-.ab1-top{
+.ab1-top {
     padding: 16px 0;
 }
-.ab1-top .ab1 h1{
+
+.ab1-top .ab1 h1 {
     /* display: flex; */
     font-weight: 700;
     font-size: 48px;
     width: 60%;
 }
-.ab1-top .ab1 h1 strong{
+
+.ab1-top .ab1 h1 strong {
     font-weight: 700;
     font-size: 48px;
     color: #6A6A6A;
 }
 
-.desc_ab1{
+.desc_ab1 {
     margin-top: 3%;
     width: 40%;
     font-style: normal;
@@ -33,17 +40,17 @@ p, h1, h2, label, span, strong {
     font-size: 20px;
 }
 
-.img_ab1{
+.img_ab1 {
     width: 100%;
 }
 
-.lineab{
+.lineab {
     margin: 5% 5%;
     height: 2px;
     background-color: black;
 }
 
-.ab2{
+.ab2 {
     display: flex;
     padding: 0 5%;
     /* width: 100%; */
@@ -56,35 +63,36 @@ p, h1, h2, label, span, strong {
     font-size: 64px;
 }
 
-.ab2 p{
+.ab2 p {
     width: 60%;
-    text-align: justify ;
+    text-align: justify;
 }
 
-.ab3{
+.ab3 {
     display: flex;
     padding: 0 5%;
     justify-content: space-around;
 }
 
-.ab3 h2{
+.ab3 h2 {
     font-weight: 700;
     font-size: 55px;
 }
 
-.vision{
+.vision {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.vision p, .vision li{
+.vision p,
+.vision li {
     text-align: justify;
     margin: 0 5%;
 }
 
-.ab4{
+.ab4 {
     display: flex;
     padding: 0 5%;
     padding-bottom: 5%;
@@ -106,11 +114,93 @@ p, h1, h2, label, span, strong {
 }
 
 
-.maps{
+.maps {
     width: 50%;
     /* height: 20px; */
     /* background-color: black; */
 }
 
+@media only screen and (max-width: 1025px) {
+    .ab1-top .ab1 h1, .ab1-top .ab1 h1 strong{
+        font-size: 38px;
+    }
 
+
+    .desc_ab1 {
+        font-size: 16px;
+    }
+
+    .ab2 h1 {
+        font-size: 55px;
+    }
+    .ab2 p {
+        font-size: 14px;
+    }
+
+    .vision p, .vision li {
+        font-size: 14px;
+    }
+    .ab3 h2 {
+        font-size: 48px;
+    }
+    .ab4 .findus h1 {
+        font-size: 55px;
+    }
+}
+@media only screen and (max-width: 972px) {
+    .ab1-top .ab1 h1, .ab1-top .ab1 h1 strong{
+        font-size: 32px;
+    }
+
+    .desc_ab1 {
+        font-size: 14px;
+    }
+    .ab2 p {
+        font-size: 12px;
+    }
+    .vision p, .vision li {
+        font-size: 12px;
+    }
+
+    .ab2 h1 {
+        font-size: 43px;
+    }
+    .ab3 h2 {
+        font-size: 45px;
+    }
+    .ab4 .findus h1 {
+        font-size: 43px;
+    }
+
+    .mapouter, .gmap_canvas, .gmap_iframe{
+        height: 400px!important;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .ab1-top .ab1 h1, .ab1-top .ab1 h1 strong{
+        font-size: 28px;
+    }
+
+    .desc_ab1 {
+        font-size: 12px;
+    }
+    .ab2 p {
+        font-size: 10px;
+    }
+    .vision p, .vision li {
+        font-size: 10px;
+    }
+
+    .ab2 h1 {
+        font-size: 40px;
+    }
+    .ab3 h2 {
+        font-size: 43px;
+    }
+    .ab4 .findus h1 {
+        font-size: 40px;
+    }
+}
 

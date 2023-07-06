@@ -31,7 +31,7 @@
         <div class="left">
             <div class="logo">
                 <a href="#">
-                    LOGO
+                    <img src="/assets/image/logo.svg" alt="">
                 </a>
             </div>
         </div>
