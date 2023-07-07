@@ -1,5 +1,5 @@
 * {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins';
     margin: 0;
     padding: 0;
 }
@@ -65,6 +65,16 @@ body {
     height: 100%;
 }
 
+.header .left .logo img{
+    width: 68px;
+    height: 55px;
+}
+
+.header .left .logo img{
+    width: 68px;
+    height: 55px;
+}
+
 .header .right a {
     padding: 0 30px;
     font-size: 15px;
@@ -78,6 +88,45 @@ body {
 .header .right a:first-of-type {
     padding-left: 0;
 }
+
+.radio-inputs {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: #EEE;
+    box-sizing: border-box;
+    box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+    padding: 3px;
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .radio-inputs .radio {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+
+  .radio-inputs .radio input {
+    display: none;
+  }
+
+  .radio-inputs .radio .name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 0;
+    color:#30475E;
+    transition: all .15s ease-in-out;
+  }
+
+  .radio-inputs .radio input:checked + .name {
+    background-color: #fff;
+    font-weight: 600;
+  }
 
 .heads {
     content: '';
@@ -118,6 +167,24 @@ body {
 
 .footer .right p:first-of-type {
     padding-left: 0;
+}
+
+@media only screen and (max-width: 736px) {
+    .header {
+        display: none;
+    }
+    .footer {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 736px) {
+    .header {
+        display: none;
+    }
+    .footer {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 736px) {
