@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/assets/css/master/style.css">
-
+    <link rel="icon" href="/assets/image/logokja.svg" type="image/x-icon">
     {{-- Font --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     {{-- ---- --}}
 
     {{-- Icon Bootstrap --}}
@@ -24,34 +28,35 @@
     {{-- ---------- --}}
     <title>@yield('title')</title>
 </head>
+
 <body>
-    <a class="linkTo" target="_blank" href="https://wa.me/6282112211387?text=kontol"><img src="/assets/image/whatsapp.svg" alt="">  Contact Us</a>
+    <a class="linkTo" target="_blank" href="https://wa.me/6281310133052?text=Hai,%20Saya%20ingin%20bertanya?"><img
+            src="/assets/image/whatsapp.svg" alt=""> @lang('public.contactus')</a>
 
     <div class="header">
         <div class="left">
             <div class="logo">
-                <a href="#">
                     <img src="/assets/image/logokja.svg" alt="">
-                </a>
+
             </div>
         </div>
         <div class="right">
-            <a href="/">HOME</a>
-            <a href="/pricing">SERVICES</a>
-            <a href="/aboutus">ABOUT US</a>
-            <a onclick="goToHome()">CONTACT US</a>
+            <a href="/">@lang('public.home')</a>
+            <a href="/pricing">@lang('public.service')</a>
+            <a href="/aboutus">@lang('public.aboutus')</a>
+            <a onclick="goToHome()">@lang('public.contactus')</a>
             {{-- <a href="/pricing">PLANS & PRICING</a> --}}
         </div>
         <div class="radio-inputs">
             <label class="radio">
-              <input type="radio" name="radio" checked="">
-              <span class="name">IDN</span>
+                <input type="radio" name="radio">
+                <a href="/en" class="name {{ (Session::get('locale') == 'en') ? 'active' : '' }}">ENG</a>
             </label>
             <label class="radio">
-              <input type="radio" name="radio">
-              <span class="name">ENG</span>
+                <input type="radio" name="radio" checked="">
+                <a href="/id" class="name {{ (Session::get('locale') == 'id') ? 'active' : '' }}">IDN</a>
             </label>
-          </div>
+        </div>
     </div>
     <div class="heads"></div>
 
@@ -61,35 +66,37 @@
 
     <div class="footer">
         <div class="left">
-            <p>Copyright © 2023 Consultant Indonesia. All rights reserved. Disclaimer. Privacy Policy</p>
+            <p>Copyright © 2023 Basauli KJA. All rights reserved. Disclaimer. Privacy Policy</p>
         </div>
         <div class="right">
-            <p>(+62) 21 29033426</p>
-            <p>info@accountUli.co</p>
+            <p>(+62) 813 10133052</p>
+            <p>basaulikja@gmail.com</p>
         </div>
     </div>
 </body>
 <script>
-
-    function goToHome(){
-        if(window.location.pathname == "/"){
+    function goToHome() {
+        if (window.location.pathname == "/") {
             scrollToDiv();
-        }
-        else {
+        } else {
             window.location.href = "/#contact";
             scrollToDiv();
         }
         // console.log(window.location.pathname);
     }
 
-  function scrollToDiv() {
-    var div = document.getElementById("contact");
-    div.scrollIntoView({ behavior: 'smooth' });
-  }
+    function scrollToDiv() {
+        var div = document.getElementById("contact");
+        div.scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
 
-  function submitForm(){
-    var text =
-    "Nama: {nama}\nEmail: {email}\nNama Perusahaan: {perusahaan}\nDeskripsi:\n{deskripsi}\n";
-  }
+    function submitForm() {
+        var text =
+            "Nama: {nama}\nEmail: {email}\nNama Perusahaan: {perusahaan}\nDeskripsi:\n{deskripsi}\n";
+    }
+
 </script>
+
 </html>

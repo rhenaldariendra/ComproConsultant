@@ -35,77 +35,66 @@
 
 </script>
 
-
-{{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css'> --}}
-
-
 <div class="plceholder"></div>
 <div class="content-1">
     <section>
-
         <div class="swiper-container slideshow">
-
             <div class="swiper-wrapper">
-
                 <div class="swiper-slide slide">
                     <div class="slide-image"
                         style="background-image: url('/assets/image/background1.jpg'); background-attachment: fixed;">
                     </div>
-                    <span class="slide-title">Where Integrity Drives Business Success</span>
+                    <span class="slide-title">@lang('home.slider.first')</span>
                 </div>
 
                 <div class="swiper-slide slide">
                     <div class="slide-image"
                         style="background-image: url('/assets/image/background2.jpg'); background-attachment: fixed;">
                     </div>
-                    <span class="slide-title">Knowledge. Ethics. Results.</span>
+                    <span class="slide-title">@lang('home.slider.second')</span>
                 </div>
 
                 <div class="swiper-slide slide">
                     <div class="slide-image"
                         style="background-image: url('/assets/image/background3.jpg'); background-attachment: fixed;">
                     </div>
-                    <span class="slide-title">Leading the Way in Responsible Business Management</span>
+                    <span class="slide-title">@lang('home.slider.third')</span>
                 </div>
 
-
+                <div class="swiper-slide slide">
+                    <div class="slide-image"
+                        style="background-image: url('/assets/image/background4.jpg'); background-attachment: fixed;">
+                    </div>
+                    <span class="slide-title">@lang('home.slider.fourth')</span>
+                </div>
             </div>
-
             <div class="slideshow-pagination"></div>
-
-            {{-- <div class="slideshow-navigation">
-                <div class="slideshow-navigation-button prev"><span class="fas fa-chevron-left"></span></div>
-                <div class="slideshow-navigation-button next"><span class="fas fa-chevron-right"></span></div>
-            </div> --}}
-
         </div>
-
     </section>
 </div>
 <div class="others">
     <div class="content-2">
         <div class="title">
-            <h2>Our Services</h2>
+            <h2>@lang('home.service.title')</h2>
         </div>
         <div class="content-2-body">
             <div class="content">
 
                 <div class="images"><img src="assets/image/deal.png" alt=""></div>
                 <div class="text">
-                    <p>Book Keeping</p>
+                    <p>@lang("home.service.first")</p>
                 </div>
             </div>
             <div class="content">
                 <div class="images"><img src="assets/image/tax.png" alt=""></div>
                 <div class="text">
-                    <p>Taxes</p>
+                    <p>@lang("home.service.second")</p>
                 </div>
             </div>
             <div class="content">
                 <div class="images"><img src="assets/image/evaluation.png" alt=""></div>
                 <div class="text">
-                    <p>Management Control</p>
+                    <p>@lang("home.service.third")</p>
                 </div>
             </div>
         </div>
@@ -116,16 +105,15 @@
             <img src="/assets/image/imageHome.svg" alt="">
         </div>
         <div class="right">
-            <h2>We Provide You The Best Services</h2>
-            <p>With our attention to detail and our up-to date knowledge on current laws and regulations, we thrive to
-                deliver accurate calculations and solutions, relevant to your needs.</p>
-            <a href="#">Explore More <i class="bi bi-arrow-right-circle"></i></a>
+            <h2>@lang("home.about.title")</h2>
+            <p>@lang("home.about.description")</p>
+            <a href="#">@lang('home.about.button') <i class="bi bi-arrow-right-circle"></i></a>
         </div>
     </div>
 
     <div class="content-4">
         <div class="title">
-            <h2>Our Partner</h2>
+            <h2>@lang("home.partner")</h2>
         </div>
         <div class="content-4-body">
             <div class="item">
@@ -142,8 +130,8 @@
     <div id="contact" class="allbody">
         <div class="container-top">
             <div class="title-top">
-                <h2>30 minutes consultation</h2>
-                <p>Please fill in the form below</p>
+                <h2>@lang("home.contact.title")</h2>
+                <p>@lang("home.contact.fill")</p>
             </div>
         </div>
         <div class="container-bottom">
@@ -151,7 +139,7 @@
                 <form id="myForm">
                     <div class="top-container">
                         <div class="input-placeholder">
-                            <label for="fname">Name</label>
+                            <label for="fname">@lang("home.contact.form.name")</label>
                             <input type="text" id="fname" name="fname" value="">
                         </div>
                         <div class="input-placeholder">
@@ -160,7 +148,7 @@
                         </div>
                     </div>
                     <div class="input-placeholder">
-                        <label for="service">Services Needed</label>
+                        <label for="service">@lang("home.contact.form.service")</label>
                         <input type="text" id="service" name="service" value="">
                     </div>
                     <div class="input-placeholder">
@@ -168,14 +156,14 @@
                         <input type="text" id="number" name="number" value="">
                     </div>
                     <div class="input-placeholder">
-                        <label for="cname">Company Name</label>
+                        <label for="cname">@lang("home.contact.form.company")</label>
                         <input type="text" id="cname" name="cname" value="">
                     </div>
                     <div class="input-placeholder">
-                        <label for="msg">Message</label>
+                        <label for="msg">@lang("home.contact.form.message")</label>
                         <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
                     </div>
-                    <button type="submit">Submit</button>
+                    <button type="submit">@lang("home.contact.form.submit")</button>
                 </form>
             </div>
 
@@ -226,7 +214,7 @@
         var text = "Nama:%20" + fname.value + "%0AEmail:%20" + email.value + "%0ANama%20Perusahaan:%20" + cname
             .value + "%0AKebutuhan:%20" + service.value + "%0ADeskripsi:%0A" + msg.value;
 
-        var link = "https://wa.me/6282112211387?text=" + text
+        var link = "https://wa.me/6281310133052?text=" + text
         window.open(link, "_blank");
     });
 

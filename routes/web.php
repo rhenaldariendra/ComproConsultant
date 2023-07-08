@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LocalizationController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,9 +21,9 @@ Route::get('/', function () {
 Route::get('/contactus', function () {
     return view('/main/contactus');
 });
-Route::get('/tes', function () {
-    return view('/main/tes');
-});
+// Route::get('/tes', function () {
+//     return view('/main/tes');
+// });
 
 Route::get('/aboutus', function () {
     return view('/main/aboutus');
@@ -32,3 +33,5 @@ Route::get('/aboutus', function () {
 Route::get('/pricing', function () {
     return view('/main/pricing');
 });
+
+Route::get("{lang}", [LocalizationController::class, 'setLanguage']);

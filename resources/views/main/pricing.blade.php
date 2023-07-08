@@ -1,168 +1,61 @@
 @extends('master.master')
-@section('title', 'pricing')
+@section('title', 'Pricing')
 @section('content')
 <link rel="stylesheet" href="/assets/css/main/pricingg2.css">
 
 <div class="pric1">
-    <h1>Get your business perfectly</h1>
-    <p>Trustworthy consulting services for your business success. We provide optimal, innovative, and dynamic solutions in strategy, management, marketing, and IT transformation. Focused on excellence and global achievement</p>
+    <h1>@lang('pricing.headline')</h1>
+    <p>@lang('pricing.tagline')</p>
 </div>
 
 <div class="pricing_content">
     <div class="box1">
-        <h1>Business Process Outsourcing</h1>
-       <div class="lr1">
-           <div class="b1">
-               <h3>Book Keeping</h3>
-            
-               <div class="dss">
-                   <div class="poin1">
-                        <li>Record daily transaction</li>
-                        <li>Raising sales invoice</li>
-                        <li>Booked purchased invoice</li>
-                        <li>Three level of checking</li>
-                   </div>
-                   <div class="poin1">
-                       <li>payroll prcessing</li>
-                       <li>Bank reconciliation</li>
-                       <li>Record receivable collections and deposits</li>
-                       <li>AR and AP reconciliation</li>
+        <h1>@lang('pricing.box-1.sub-1.headline')</h1>
+        <div class="lr1">
+            <div class="b1">
+                <h3>@lang('pricing.box-1.sub-1.subline')</h3>
+                <div class="dss">
+                    <div class="poin1">
+                        <li>@lang('pricing.box-1.sub-1.list-1.first')</li>
+                        <li>@lang('pricing.box-1.sub-1.list-1.second')</li>
+                        <li>@lang('pricing.box-1.sub-1.list-1.third')</li>
+                        <li>@lang('pricing.box-1.sub-1.list-1.fourth')</li>
+                    </div>
+                    <div class="poin1">
+                        <li>@lang('pricing.box-1.sub-1.list-2.first')</li>
+                        <li>@lang('pricing.box-1.sub-1.list-2.second')</li>
+                        <li>@lang('pricing.box-1.sub-1.list-2.third')</li>
+                        <li>@lang('pricing.box-1.sub-1.list-2.fourth')</li>
+                    </div>
                 </div>
             </div>
-           </div>
-           <div class="b1">
-               <h3>Tax Service</h3>
-               <p>We offer in-depth knowledge of tax systems and complex tax regulations.</p>
-               <div class="dss">
+            <div class="b1">
+                <h3>@lang('pricing.box-1.sub-2.headline')</h3>
+                <p>@lang('pricing.box-1.sub-2.subline')</p>
+                <div class="dss">
                     <div class="poin2">
-                        <li>Monthly value added tax filing</li>
-                        <li>Monthly income tax reporting filling or reporting</li>
-                        <li>Annual tax reporting</li>
-                        <li>reviewing the completeness of documents and decisions on tax regulations </li>
+                        <li>@lang('pricing.box-1.sub-2.list-1.first')</li>
+                        <li>@lang('pricing.box-1.sub-2.list-1.second')</li>
+                        <li>@lang('pricing.box-1.sub-2.list-1.third')</li>
+                        <li>@lang('pricing.box-1.sub-2.list-1.fourth')</li>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="btn_box1">
-            <a href="btn_box2">
-                <p><big><strong>Start from 3.000.000 / month</strong></big><br><small>addtional charge will be added</small></p>
-            </a>
-        </div>
-        
+        <a class="btn_box1" href="https://wa.me/6281310133052?text=Hai,%20Saya%20ingin%20bertanya%20mengenai%20pemrosesan%20bisnis%20pihak%20ketiga"><big>@lang('pricing.price') 3.000.000 / @lang('pricing.month')</big><br>@lang('pricing.additional')</a>
 
-    </div>  
+
+    </div>
     <div class="box2">
-        <h1>Business Partner</h1>
-       <div class="lr2">
-           <div class="b2">
-               <p>We design integrated bookkeeping systems aligned with your Financial Statements to increase efficiency, save costs, and provide small to medium-sized businesses with the Financial Information they need to enhance performance and profitability. Our trustworthy services include delivering numbers, management reports, and KPIs to support your business growth through informed decision-making.</p>
+        <h1>@lang("pricing.box-2.headline")</h1>
+        <div class="lr2">
+            <div class="b2">
+                <p>@lang("pricing.box-2.description")</p>
             </div>
         </div>
-        <div class="btn_box1">
-            <a href="btn_box2">
-                <p><big><strong>Start from 3.000.000 / month</strong></big><br><small>addtional charge will be added</small></p>
-            </a>
-        </div>
-        
-    </div>  
+        <a class="btn_box1" href="https://wa.me/6281310133052?text=Hai,%20Saya%20ingin%20bertanya%20mengenai%20pemrosesan%20bisnis%20pihak%20ketiga"><big>@lang('pricing.price') 3.000.000 / @lang('pricing.month')</big><br>@lang('pricing.additional')</a>
+    </div>
 
 </div>
-{{-- <div class="box-pricing"> --}}
-    {{-- <div class="content_pricing">
-        <div class="box1">
-            <h3></h3> --}}
-            {{-- <div class="content_box">
-                <h1>Book Keeping</h1>
-                <p>We can assist in the licensing and registration process, be it for business permits, location permits, operational permits, or any other specific permits that may be required based on the type of business to be established.</p>
-                 
-                
-                <div class="pricing-price">
-                    <div class="price-mid">
-                        <h1>Rp <strong>3</strong></h1>
-                        <p class="price-month">mill/month</p>
-                    </div>
-                
-                
-                    <div class="price-bot">
-                        <p>*additional 1.5 mill for multiples of 50 transactions</p>
-                    </div>
-                </div>                     
-                                    
-                <div class="btn_get">
-                    <a href="#">get started</a>
-                </div>
-                <div class="box-desc">
-                        <p><i class="bi bi-check-circle-fill"></i>  Record daily transaction</p>
-
-                        <div class="line"></div>
-
-                        <p><i class="bi bi-check-circle-fill"></i>  Raising sales invoice</p>
-
-                        <div class="line"></div>
-
-                        <p><i class="bi bi-check-circle-fill"></i>  Booked purchased invoice</p>
-                        <div class="line"></div>
-
-                        <p><i class="bi bi-check-circle-fill"></i>  Check PO,DO,invoice</p>
-
-                        <div class="line"></div>
-
-                        <p><i class="bi bi-check-circle-fill"></i>  Payroll processing</p>
-
-                        <div class="line"></div>
-
-                        <p><i class="bi bi-check-circle-fill"></i>  Bank reconciiation</p>
-
-                        <div class="line"></div>
-
-                        <p><i class="bi bi-check-circle-fill"></i>  Record receivable collections and deposits</p>
-
-                        <div class="line"></div>
-
-                        <p><i class="bi bi-check-circle-fill"></i> AR and AP reconciliation</p>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        <div class="box2">
-            <div class="content_box">
-                <h1>Tax Services</h1>
-                <p>We offer in-depth knowledge of tax systems and complex tax regulations.</p>
-                 
-                <div class="pricing-price">
-                    <div class="price-mid">
-                        <h1>Rp <strong>3</strong></h1>
-                        <p class="price-month">mill/month</p>
-                    </div>
-                
-                
-                    <div class="price-bot">
-                        <p>*additional 1.5 mill for multiples of 50 transactions</p>
-                    </div>
-                </div> 
-
-                <div class="btn_get_2">
-                    <a href="#"> get started</a>
-                </div>
-                <div class="box-desc-2">
-                        <p><i class="bi bi-check-circle-fill"></i>  Monthly value added tax filling or reporting</p>
-
-                        <div class="line"></div>
-
-                        <p><i class="bi bi-check-circle-fill"></i>  Monthly income tax reporting</p>
-
-                        <div class="line"></div>
-
-                        <p><i class="bi bi-check-circle-fill"></i>  Annual tax reporting</p>
-                </div>
-                
-            </div> --}}
-        {{-- </div>
-    </div> --}}
-{{-- </div> --}}
-
-    
 @endsection

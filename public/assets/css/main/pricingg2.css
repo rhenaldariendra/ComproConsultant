@@ -125,32 +125,21 @@ li::before{
 }
 
 .btn_box1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 2% 0;
-    width: 311px;
-    height: 60px;
     border-radius: 15px;
     background-color: white;
     transition: all 0.3s;
-}
-
-.btn_box1 a {
-    padding: 1% 0;
-}
-
-.btn_box1:hover{
-    background-color: #93B9E0;
-}
-
-.btn_box1 p{
-    width: 311px;
+    padding: 1% 2%;
     text-align: center;
     color: black;
 }
 
-.btn_box1 p:hover{
+big {
+    font-weight: bold;
+}
+
+.btn_box1:hover{
+    background-color: #93B9E0;
     color: white;
 }
 
@@ -209,10 +198,6 @@ li::before{
     }
 
     .btn_box1{
-        width: 224px;
-    }
-
-    .btn_box1 p{
         font-size: 13px;
     }
 
@@ -223,7 +208,7 @@ li::before{
 
     .b2 p{
         font-size: 11px;
-        
+
     }
 }
 
@@ -253,13 +238,8 @@ li::before{
         font-size: 10px;
     }
 
-    .btn_box1 p{
-        font-size: 10px;
-    }
-
     .btn_box1{
-        width: 174px;
-        height: 50px;
+        font-size: 10px;
     }
 
     .box2 h1{
