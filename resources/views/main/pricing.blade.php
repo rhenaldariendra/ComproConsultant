@@ -42,8 +42,7 @@
                 </div>
             </div>
         </div>
-
-        <a class="btn_box1" href="https://wa.me/6281310133052?text=Hai,%20Saya%20ingin%20bertanya%20mengenai%20pemrosesan%20bisnis%20pihak%20ketiga"><big>@lang('pricing.price') 3.000.000 / @lang('pricing.month')</big><br>@lang('pricing.additional')</a>
+        <a class="btn_box1" href="https://wa.me/6281310133052?text=Hai,%20Saya%20ingin%20bertanya%20mengenai%20pemrosesan%20bisnis%20pihak%20ketiga"><big>@lang('pricing.price') 3.000.000 / @lang('pricing.month')</big></a>
 
 
     </div>
@@ -54,7 +53,7 @@
                 <p>@lang("pricing.box-2.description")</p>
             </div>
         </div>
-        <a class="btn_box1" href="https://wa.me/6281310133052?text=Hai,%20Saya%20ingin%20bertanya%20mengenai%20pemrosesan%20bisnis%20pihak%20ketiga"><big>@lang('pricing.price') 3.000.000 / @lang('pricing.month')</big><br>@lang('pricing.additional')</a>
+        <a class="btn_box1" href="https://wa.me/6281310133052?text=Hai,%20Saya%20ingin%20bertanya%20mengenai%20pemrosesan%20bisnis%20pihak%20ketiga"><big>@lang('pricing.price') 3.000.000 / @lang('pricing.month')</big></a>
     </div>
 
 </div>

@@ -58,11 +58,9 @@ body {
 .header .left  {
     height: 100%;
 }
+
 .header .left .logo {
     height: 100%;
-    /* width: 150px; */
-    /* display: flex; */
-    /* align-items: center; */
 }
 
 .header .left .logo img {
@@ -70,27 +68,27 @@ body {
     height: 100%;
 }
 
-/* .header .left .logo img {
-    width: 68px;
-    height: 55px;
-} */
-
 .header .left .logo img {
     width: auto;
     height: 100%;
 }
 
-.header .right a {
+.header .right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header .right-nav a {
     padding: 0 30px;
     font-size: 18px;
     font-weight: 600;
 }
 
-.header .right a:last-of-type {
-    padding-right: 0;
-}
+/* .header .right-nav a:last-of-type {
+    padding-right-nav: 0;
+} */
 
-.header .right a:first-of-type {
+.header .right-nav a:first-of-type {
     padding-left: 0;
 }
 
@@ -175,32 +173,176 @@ body {
     padding-left: 0;
 }
 
-@media only screen and (max-width: 736px) {
-    .header {
-        display: none;
+
+.toggle-button {
+    position: absolute;
+    /* top: 1.25rem; */
+    top: 50%;
+    transform: translateY(-50%);
+    /* position: absolute; */
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 1573px) {
+    .header .left  {
+        height: 70%;
     }
 
-    .footer {
-        display: none;
+}
+
+@media only screen and (max-width: 1340px) {
+    .header .left  {
+        height: 50%;
     }
 }
 
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 1168px) {
     .header {
-        display: none;
-    }
-
-    .footer {
-        display: none;
+        padding: 0 20px;
     }
 }
 
-@media only screen and (max-width: 736px) {
-    .header {
-        display: none;
-    }
-
-    .footer {
-        display: none;
+@media only screen and (max-width: 1110px) {
+    .header .left {
+        height: 30%;
     }
 }
+
+@media only screen and (max-width: 1061px) {
+    .footer .left p {
+        font-size: 12px;
+    }
+    .footer .right p {
+        font-size: 10px;
+    }
+
+}
+
+/* header */
+
+@media only screen and (max-width: 890px) {
+    .header {
+        height: 8vh;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .heads {
+        height: 8vh;
+    }
+    .header .left  {
+        padding-left: 10px;
+        height: 80%;
+    }
+
+    .toggle-button {
+        display: flex;
+        /* margin-top: .9rem; */
+    }
+
+    .right-nav {
+        background: #F0F1F7;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        display: none !important;
+    }
+
+    .right-nav a {
+        padding: .5rem 1rem !important;
+    }
+    .right-nav div {
+        margin: .5rem 1rem !important;
+    }
+
+    .right-nav.active {
+        position: absolute;
+        top: 120px;
+        display: flex !important;
+    }
+}
+
+/* -------------------------------------- */
+
+
+@media only screen and (max-width: 847px) {
+    .footer {
+        padding: 0 30px;
+    }
+    .footer .right p {
+    padding: 0 10px;
+    /* font-size: 14px; */
+    }
+
+    .footer .right p:last-of-type {
+        padding-right: 0;
+    }
+
+    .footer .right p:first-of-type {
+        padding-left: 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 812px) {
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .footer .left {
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    .footer .left p {
+        font-size: 14px;
+    }
+    .footer .right p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .header .left{
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .header .left{
+        height: 60%;
+    }
+    .header, .heads {
+        height:7vh;
+    }
+
+    .footer .left {
+        padding-bottom: 10px;
+    }
+
+    .footer .left p {
+        font-size: 10px;
+    }
+    .footer .right p {
+        font-size: 10px;
+    }
+}
+
+

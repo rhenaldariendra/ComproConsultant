@@ -26,6 +26,7 @@
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"
         integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     {{-- ---------- --}}
+
     <title>@yield('title')</title>
 </head>
 
@@ -36,26 +37,30 @@
     <div class="header">
         <div class="left">
             <div class="logo">
-                    <img src="/assets/image/logokja.svg" alt="">
-
+                <img src="/assets/image/logokja.svg" alt="">
             </div>
         </div>
-        <div class="right">
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+
+        <div class="right-nav">
             <a href="/">@lang('public.home')</a>
             <a href="/pricing">@lang('public.service')</a>
             <a href="/aboutus">@lang('public.aboutus')</a>
             <a onclick="goToHome()">@lang('public.contactus')</a>
-            {{-- <a href="/pricing">PLANS & PRICING</a> --}}
-        </div>
-        <div class="radio-inputs">
-            <label class="radio">
-                <input type="radio" name="radio">
-                <a href="/en" class="name {{ (Session::get('locale') == 'en') ? 'active' : '' }}">ENG</a>
-            </label>
-            <label class="radio">
-                <input type="radio" name="radio" checked="">
-                <a href="/id" class="name {{ (Session::get('locale') == 'id') ? 'active' : '' }}">IDN</a>
-            </label>
+            <div class="radio-inputs">
+                <label class="radio">
+                    <input type="radio" name="radio">
+                    <a href="/en" class="name {{ (Session::get('locale') == 'en') ? 'active' : '' }}">ENG</a>
+                </label>
+                <label class="radio">
+                    <input type="radio" name="radio" checked="">
+                    <a href="/id" class="name {{ (Session::get('locale') == 'id') ? 'active' : '' }}">IDN</a>
+                </label>
+            </div>
         </div>
     </div>
     <div class="heads"></div>
@@ -82,7 +87,6 @@
             window.location.href = "/#contact";
             scrollToDiv();
         }
-        // console.log(window.location.pathname);
     }
 
     function scrollToDiv() {
@@ -98,5 +102,13 @@
     }
 
 </script>
+<script>
+    const toggleButton = document.getElementsByClassName('toggle-button')[0]
+    const navbarLinks = document.getElementsByClassName('right-nav')[0]
 
+    toggleButton.addEventListener('click', () => {
+        navbarLinks.classList.toggle('active')
+    })
+
+</script>
 </html>

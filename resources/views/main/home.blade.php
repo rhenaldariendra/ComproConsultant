@@ -80,21 +80,44 @@
         <div class="content-2-body">
             <div class="content">
 
-                <div class="images"><img src="assets/image/deal.png" alt=""></div>
+                <div class="images">
+                    <img src="assets/image/deal.png" alt="">
+                    <p>@lang("home.service.first.title")</p>
+                </div>
                 <div class="text">
-                    <p>@lang("home.service.first")</p>
+                    <ul>
+                        @foreach (trans()->get('home.service.first.draft') as $data)
+                        <li>{{ $data }}</li>
+                        @endforeach
+                    </ul>
                 </div>
             </div>
             <div class="content">
-                <div class="images"><img src="assets/image/tax.png" alt=""></div>
+                <div class="images">
+                    <img src="assets/image/tax.png" alt="">
+                    <p>@lang("home.service.second.title")</p>
+                </div>
                 <div class="text">
-                    <p>@lang("home.service.second")</p>
+                    <ul>
+
+                        @foreach (trans()->get('home.service.second.draft') as $data)
+                        <li>{{ $data }}</li>
+                        @endforeach
+                    </ul>
                 </div>
             </div>
             <div class="content">
-                <div class="images"><img src="assets/image/evaluation.png" alt=""></div>
+                <div class="images">
+                    <img src="assets/image/evaluation.png" alt="">
+                    <p>@lang("home.service.third.title")</p>
+                </div>
                 <div class="text">
-                    <p>@lang("home.service.third")</p>
+                    <ul>
+                        @foreach (trans()->get('home.service.third.draft') as $data)
+                        <li>{{ $data }}</li>
+                        @endforeach
+                    </ul>
+
                 </div>
             </div>
         </div>
@@ -117,11 +140,15 @@
         </div>
         <div class="content-4-body">
             <div class="item">
-                <img src="/assets/image/fotobuuli.jpg" alt="">
+                <div class="images">
+                    <img src="/assets/image/fotobuuli.jpg" alt="">
+                </div>
                 <p>Basauli Sianipar, SE Ak., CA, ACPA</p>
             </div>
             <div class="item">
-                <img src="/assets/image/fotokanancroped.jpg" alt="">
+                <div class="images">
+                    <img src="/assets/image/fotokanancroped.jpg" alt="">
+                </div>
                 <p>Ilias Ronald M Aritonang, SE Ak., CA</p>
             </div>
         </div>
@@ -171,7 +198,8 @@
                 <div class="mapouter">
                     <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
                             marginheight="0" marginwidth="0"
-                            src="https://maps.google.com/maps?width=600&amp;height=472&amp;hl=en&amp;q=Kantor Jasa Akuntan Cibubur Basauli Sianipar&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                            {{-- src="https://maps.google.com/maps?width=600&amp;height=472&amp;hl=en&amp;q=Kantor Jasa Akuntan Cibubur Basauli Sianipar&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a --}}
+                            src="https://maps.google.com/maps?width=600&amp;height=472&amp;hl=en&amp;q=+(ruko%20food%20plaza)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
                             href="https://capcuttemplate.org/">Capcut Templates</a></div>
                     <style>
                         .mapouter {

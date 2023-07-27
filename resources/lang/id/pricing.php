@@ -32,7 +32,7 @@
         ],
         "box-2" => [
             "headline" => "Mitra Bisnis",
-            "description" => "Kami merancang sistem pencatatan keuangan terintegrasi yang sesuai dengan Laporan Keuangan Anda untuk meningkatkan efisiensi, menghemat biaya, dan memberikan Informasi Keuangan yang Anda butuhkan bagi bisnis skala kecil hingga menengah untuk meningkatkan kinerja dan profitabilitas. Layanan kami yang dapat dipercaya meliputi penyampaian angka-angka, laporan manajemen, dan KPI untuk mendukung pertumbuhan bisnis Anda melalui pengambilan keputusan yang terinformasi."
+            "description" => "Membantu perusahaan dari bisnis kecil hingga menengah untuk medapatkan informasi keuangan yang dibutuhkan untuk meningkatkan kinerja dan profitabilitas dengan keputusan yang prestisius. Kami merancang system pembukuan anda, terintegrasi dengan laporan keuangan anda. Meningkatkan efisiensi dan menghemat biaya.Kami memberikan angka yang dapat anda percayai, termasuk laporan manajemen dan KPI(Indikator Kinerja Utama) yang akan membantu anda mengembangkan bisnis anda"
         ],
         "price" => "Mulai dari IDR",
         "month" => "bulan",

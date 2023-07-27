@@ -301,10 +301,11 @@ strong {
         align-items: center;
     }
     .ab2 h1 {
-        font-size: 43px;
+        font-size: 30px;
     }
     .ab2 p {
         width: 90%;
+        font-size: 12px;
         text-align: justify;
     }
 
@@ -316,11 +317,11 @@ strong {
     }
 
     .ab3 h2{
-        font-size: 43px;
+        font-size: 30px;
     }
 
-    .ab3 p, .ab3 ol{
-        font-size: 20px;
+    .ab3 p, .ab3 ol, .vision p, .vision li{
+        font-size: 12px;
     }
 
     .ab4 {
@@ -338,7 +339,7 @@ strong {
 
     .ab4 .findus h1 {
         width: 100%;
-        font-size: 43px;
+        font-size: 30px;
     }
 
     .findus{

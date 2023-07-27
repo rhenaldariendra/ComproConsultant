@@ -32,7 +32,7 @@
         ],
         "box-2" => [
             "headline" => "Bussiness Partner",
-            "description" => "We design integrated bookkeeping systems aligned with your Financial Statements to increase efficiency, save costs, and provide small to medium-sized businesses with the Financial Information they need to enhance performance and profitability. Our trustworthy services include delivering numbers, management reports, and KPIs to support your business growth through informed decision-making."
+            "description" => "Helping company from small to medium business to get the financial information that they need to improve performance and profitability by prestigues decision. We design your integrated book keeping system with your financial statement. Increase efficiency and cost saving. We deliver number that you can trust, including management report and KPI(Key Performance Indicator) that will help you growt your business"
         ],
         "price" => "Start from IDR",
         "month" => "month",
